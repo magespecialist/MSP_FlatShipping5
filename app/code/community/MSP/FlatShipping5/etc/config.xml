@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * IDEALIAGroup srl
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to info@idealiagroup.com so we can send you a copy immediately.
+ *
+ * @category    MSP
+ * @package     MSP_FlatShipping5
+ * @copyright   Copyright (c) 2010-2014 IDEALIAGroup srl (http://www.idealiagroup.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+	<modules>
+		<MSP_FlatShipping5>
+			<version>1.0.4</version>
+		</MSP_FlatShipping5>
+	</modules>
+	
+	<global>
+		<helpers>
+			<msp_flatshipping5>
+				<class>MSP_FlatShipping5_Helper</class>
+			</msp_flatshipping5>
+        </helpers>
+		<models>
+			<msp_flatshipping5>
+				<class>MSP_FlatShipping5_Model</class>
+			</msp_flatshipping5>
+		</models>
+		<blocks>
+			<msp_flatshipping5>
+				<class>MSP_FlatShipping5_Block</class>
+			</msp_flatshipping5>
+			<checkout>
+				<rewrite>
+					<onepage_shipping_method_available>MSP_FlatShipping5_Block_Available</onepage_shipping_method_available>
+				</rewrite>
+			</checkout>
+		</blocks>
+	</global>
+	
+	<frontend>
+		<layout>
+			<updates>
+				<msp_flatshipping5>
+					<file>msp_flatshipping5.xml</file>
+				</msp_flatshipping5>
+			</updates>
+		</layout>
+	</frontend>
+	
+	<default>
+		<carriers>
+			<flatrate>
+				<infotext></infotext>
+			</flatrate>
+            <flatrate2>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>msp_flatshipping5/carrier_flatrate2</model>
+                <name>Fixed 2</name>
+                <price>5.00</price>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+				<infotext></infotext>
+                <handling_type>F</handling_type>
+            </flatrate2>
+			<flatrate3>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>msp_flatshipping5/carrier_flatrate3</model>
+                <name>Fixed 3</name>
+                <price>5.00</price>
+                <title>Flat Rate</title>
+				<infotext></infotext>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+            </flatrate3>
+			<flatrate4>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>msp_flatshipping5/carrier_flatrate4</model>
+                <name>Fixed 4</name>
+                <price>5.00</price>
+				<infotext></infotext>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+            </flatrate4>
+			<flatrate5>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>msp_flatshipping5/carrier_flatrate5</model>
+                <name>Fixed 5</name>
+                <price>5.00</price>
+				<infotext></infotext>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+            </flatrate5>
+		</carriers>
+	</default>
+</config>

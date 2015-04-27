@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>MSP_FlatShipping5</name>
+    <version>1.0.4</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL3</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>MageSpecialist Multiple Flat Shipping Module with custom text configuration</summary>
+    <description>MageSpecialist Multiple Flat Shipping Module with custom text configuration</description>
+    <notes>Enjoy it ;)</notes>
+    <authors><author><name>Riccardo Tempesta</name><user>idealiagroup</user><email>tempesta@idealiagroup.com</email></author><author><name>Marco Giorgetti</name><user>idealiagroup</user><email>giorgetti@idealiagroup.com</email></author><author><name>Paolo Vecchiocattivi</name><user>idealiagroup</user><email>vecchiocattivi@idealiagroup.com</email></author></authors>
+    <date>2014-08-18</date>
+    <time>07:50:51</time>
+    <contents><target name="magecommunity"><dir name="MSP"><dir name="FlatShipping5"><dir name="Block"><file name="Available.php" hash="2c90f4567a2c06db8607e1bdf18c22d1"/></dir><dir name="Helper"><file name="Data.php" hash="6735cd012a8160e2cc0de99fedc7ac3d"/></dir><file name="LICENSE.txt" hash="b7870fbc716085862b4cba9b4629a24e"/><dir name="Model"><dir name="Carrier"><file name="Abstract.php" hash="1afabbb0be739be3280d75339940584f"/><file name="Flatrate2.php" hash="fc85a78feaba2e15c35a0e07a5defada"/><file name="Flatrate3.php" hash="007590cbd5c3bd1374e73a51c92e42f5"/><file name="Flatrate4.php" hash="90e8ccd80accff68b3fd2f7c33e909c6"/><file name="Flatrate5.php" hash="edf4c3e96c2c7e14fb83fd4da0876b2d"/></dir></dir><dir name="etc"><file name="config.xml" hash="3f73e548debe47c23e79751e10d729cf"/><file name="system.xml" hash="9f2fcdd7963aba6ced019b7ba93eeb2a"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="MSP_FlatShipping5.xml" hash="08355534cd18416d473e5be1b1e606f3"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="msp_flatshipping5.xml" hash="29616a3a4583f8306eec9547bfb6ccd1"/></dir><dir name="template"><dir name="msp_flatshipping5"><file name="available.phtml" hash="c5a187d3a4621ffd3fa3ff69f614ea1f"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
