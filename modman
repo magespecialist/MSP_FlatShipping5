@@ -1,0 +1,4 @@
+app/code/community/MSP/FlatShipping5/                            app/code/community/MSP/FlatShipping5/
+app/design/frontend/base/default/layout/msp_flatshipping5.xml    app/design/frontend/base/default/layout/msp_flatshipping5.xml
+app/design/frontend/base/default/template/msp_flatshipping5/     app/design/frontend/base/default/template/msp_flatshipping5/
+app/etc/modules/MSP_FlatShipping5.xml                            app/etc/modules/MSP_FlatShipping5.xml
