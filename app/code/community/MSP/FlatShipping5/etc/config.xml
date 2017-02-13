@@ -22,10 +22,10 @@
 <config>
 	<modules>
 		<MSP_FlatShipping5>
-			<version>1.0.4</version>
+			<version>1.0.5</version>
 		</MSP_FlatShipping5>
 	</modules>
-	
+
 	<global>
 		<helpers>
 			<msp_flatshipping5>
@@ -48,7 +48,7 @@
 			</checkout>
 		</blocks>
 	</global>
-	
+
 	<frontend>
 		<layout>
 			<updates>
@@ -58,7 +58,7 @@
 			</updates>
 		</layout>
 	</frontend>
-	
+
 	<default>
 		<carriers>
 			<flatrate>
