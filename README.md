@@ -8,3 +8,7 @@ Extension's development is available on github here:
 https://github.com/magespecialist/MSP_FlatShipping5
 while Magento stable packages are available for free at MageSpecialist website here:  
 http://www.magespecialist.it/en/msp-multiflatshipping.html
+
+Installation:
+
+    composer require msp/flat-shipping5
